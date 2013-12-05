@@ -26,3 +26,4 @@ Change Precision:
 * exp -- expf -- __expf and  log -- logf -- __logf in commom.cu
 * cublas S ang D
 * to enable double precision, CUDA computation capability 1.3 or larger is required (needs to switch on in the nvcc compiler)
+* MATLAB testing data generation, 'single' and 'double'
