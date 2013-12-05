@@ -1,0 +1,25 @@
+
+Depedency:
+* libmatio: http://sourceforge.net/projects/matio/. (May not easy to build the static lib). What you need from building libmatio:
+    * DLLs: hdf5.dll, szip.dll and zlib.dll
+    * Headers: matio.h, matio_pubconf.h
+    * Libs:  hdf5.lib, hdf5.pdb, hdf5_cpp.lib, hdf5_cpp.pdb, libmatio.lib, szip.lib, zlib.lib
+* OWLQN: http://research.microsoft.com/en-us/downloads/b1eb1016-1738-4bd5-83a9-370c9d498a03/. What you need from OWLQN: source code
+
+How to Build ....
+Add everything into a CUDA project and make sure all depedencies are fulfilled.
+
+How to Test ....
+
+* gen input files: gen_*.m
+* Run testing: testCuda*.cu
+* Confirm results: confirm_*.m
+
+Change Precision:
+* cudaPrecisions
+* DblVec in the OWLQN.h
+* matrix read check data_type, class_type and data_size
+* matrix write data_type and class_type
+* exp -- expf -- __expf and  log -- logf -- __logf in commom.cu
+* cublas S ang D
+* to enable double precision, CUDA computation capability 1.3 or larger is required (needs to switch on in the nvcc compiler)
