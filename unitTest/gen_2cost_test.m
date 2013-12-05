@@ -8,7 +8,7 @@ beta = 5;
 lambda = 3e-3;         % weight decay parameter
 
 % nSamples = 100000;
-nSamples = 100000;
+nSamples = 100;
 dInput = 192;
 dHidden = 400;
 

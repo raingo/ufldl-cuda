@@ -4,7 +4,7 @@ function gen_2ff_test()
 addpath(MATLAB_IMPL_DIR);
 
 % nSamples = 100000;
-nSamples = 100000;
+nSamples = 100;
 dInput = 192;
 dHidden = 400;
 

@@ -1,5 +1,5 @@
 
-Create local_settings.m and local_config.h to suit your testing environments.
+Create local_settings.m to suit your testing environments.
 
 example contents of local_settings.m:
 
@@ -7,15 +7,3 @@ example contents of local_settings.m:
 base_dir = 'some directory';
 MATLAB_IMPL_DIR = 'the path point to matlab implementation, including the twoLayerFF.m, twoLayerBP.m and so on';
 %%%
-
-example contents of local_config.h:
-
-
-/////////
-#ifndef LOCAL_CONFIG_SX2FW4ZG
-#define LOCAL_CONFIG_SX2FW4ZG
-
-#define BASE_DIR "SOME DIRECTORY"
-
-#endif /* end of include guard: LOCAL_CONFIG_SX2FW4ZG */
-/////////

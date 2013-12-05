@@ -2,3 +2,4 @@ OWLQN.cpp
 OWLQN.h
 TerminationCriterion.cpp
 TerminationCriterion.h
+local_config.h

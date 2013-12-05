@@ -1,0 +1,13 @@
+
+Create local_config.h to suit your testing environments.
+
+example contents of local_config.h:
+
+/////////
+#ifndef LOCAL_CONFIG_SX2FW4ZG
+#define LOCAL_CONFIG_SX2FW4ZG
+
+#define BASE_DIR "SOME DIRECTORY"
+
+#endif /* end of include guard: LOCAL_CONFIG_SX2FW4ZG */
+/////////

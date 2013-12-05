@@ -1,5 +1,6 @@
 #include "common.cuh"
 #include <string.h>
+#include "local_config.h"
 
 #include "sparseAutoencoderLinearCost.h"
 
@@ -14,9 +15,8 @@ int main_opt()
 	double tol = 1e-4, regweight = 0;
 	int m = 10;
 
-    //const char *base_dir = "\\\\tsclient\\C\\Tesla-GPU\\FinalProject\\test_vs\\cudaUnits\\";
-    const char *base_dir = "C:\\Users\\yli3\\Desktop\\test_cuda\\test_data\\";
-    const char *test_name = "test_2opt_f";
+    const char *base_dir = BASE_DIR;
+    const char *test_name = "test_2opt";
     char filename[256];
     char *input_suffiex = "";
     char *res_suffiex = "res";
