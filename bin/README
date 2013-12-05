@@ -1,0 +1,17 @@
+
+Download test_data from https://www.dropbox.com/s/nxt4fvz6sgjimkl/test_data.zip, unzip it, the directories should be like:
+
+©¦  hdf5.dll
+©¦  README
+©¦  szip.dll
+©¦  unitTests.exe
+©¦  unitTests.pdb
+©¦  zlib.dll
+©¦
+©¸©¤test_data
+    ©À©¤test_2bp
+    ©À©¤test_2cost
+    ©À©¤test_2ff
+    ©¸©¤test_2opt
+
+After run the executable, check the ~res.mat files under each test unit, that's the results.
