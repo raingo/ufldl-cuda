@@ -1,6 +1,6 @@
 
 How to Run ....
-A executable is included under bin/* for your convinience. It should be able to run without problem on TESLA machines. It's a little complicated (not really) to compile, so if you need to compile everything, read on. If there are still problems, please email me.
+A executable is included under bin/* for your convinience. It should be able to run without problem on TESLA machines. It's a little complicated (not really) to compile, so if you need to compile everything, read on. If there are still problems, please email me (yli@cs.rochester.edu).
 
 Depedency:
 * libmatio: http://sourceforge.net/projects/matio/. (May not easy to build the static lib). What you need from building libmatio:
